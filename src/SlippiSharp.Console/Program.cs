@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System.Buffers.Binary;
+﻿using System.Buffers.Binary;
 using SlippiSharp.Parser.Enums;
 
 var headerBytes = "{U\x03raw[$U#l"u8;
