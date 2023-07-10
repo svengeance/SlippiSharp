@@ -1,0 +1,35 @@
+﻿namespace SlippiSharp.Parser.Enums;
+
+public enum Attack
+{
+    Misc = 1,
+    Jab = 2,
+    Jab2 = 3,
+    Jab3 = 4,
+    RightJab = 5,
+    Dash = 6,
+    ForwardTilt = 7,
+    UpTilt = 8,
+    DownTilt = 9,
+    ForwardSmash = 10,
+    UpSmash = 11,
+    DownSmash = 12,
+    NeutralAir = 13,
+    ForwardAir = 14,
+    BackAir = 15,
+    UpAir = 16,
+    DownAir = 17,
+    NeutralSpecial = 18,
+    SideSpecial = 19,
+    UpSpecial = 20,
+    DownSpecial = 21,
+    GetUpAttack = 50,
+    GetUpAttackSlow = 51,
+    Pummel = 52,
+    ForwardThrow = 53,
+    BackThrow = 54,
+    UpThrow = 55,
+    DownThrow = 56,
+    EdgeAttackSlow = 61,
+    EdgeAttack = 62
+}

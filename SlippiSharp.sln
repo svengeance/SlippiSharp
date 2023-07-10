@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlippiSharp.Console", "src\SlippiSharp.Console\SlippiSharp.Console.csproj", "{08F80298-5370-4AC8-9475-2153344C1376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlippiSharp.Parser", "src\SlippiSharp.Parser\SlippiSharp.Parser.csproj", "{57DE8444-8499-4352-B73F-A476F5FEBC51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4ECEDA44-2DBA-4590-9B0B-E669966D2411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08F80298-5370-4AC8-9475-2153344C1376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F80298-5370-4AC8-9475-2153344C1376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F80298-5370-4AC8-9475-2153344C1376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F80298-5370-4AC8-9475-2153344C1376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DE8444-8499-4352-B73F-A476F5FEBC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DE8444-8499-4352-B73F-A476F5FEBC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DE8444-8499-4352-B73F-A476F5FEBC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DE8444-8499-4352-B73F-A476F5FEBC51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08F80298-5370-4AC8-9475-2153344C1376} = {4ECEDA44-2DBA-4590-9B0B-E669966D2411}
+		{57DE8444-8499-4352-B73F-A476F5FEBC51} = {4ECEDA44-2DBA-4590-9B0B-E669966D2411}
+	EndGlobalSection
+EndGlobal
