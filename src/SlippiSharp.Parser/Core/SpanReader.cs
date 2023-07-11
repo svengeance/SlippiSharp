@@ -1,9 +1,13 @@
 ﻿using System.Runtime.CompilerServices;
-
 using static System.Buffers.Binary.BinaryPrimitives;
 
-namespace SlippiSharp.Parser;
+namespace SlippiSharp.Parser.Core;
 
+/// <summary>
+/// A wrapper over a span which keeps state to read data and advance an offset.
+///
+/// Courtesy of <a href="https://gist.github.com/DaZombieKiller/e0a3f4b3de21d998797eed33cda0f709">DaZombieKiller</a>. 
+/// </summary>
 public ref struct SpanReader
 {
     readonly ReadOnlySpan<byte> baseSpan;

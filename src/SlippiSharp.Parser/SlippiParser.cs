@@ -1,4 +1,6 @@
-﻿namespace SlippiSharp.Parser;
+﻿using SlippiSharp.Parser.Core;
+
+namespace SlippiSharp.Parser;
 
 public class SlippiParser
 {

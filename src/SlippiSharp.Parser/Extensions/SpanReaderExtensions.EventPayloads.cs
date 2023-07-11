@@ -1,4 +1,5 @@
-﻿using SlippiSharp.Parser.Enums;
+﻿using SlippiSharp.Parser.Core;
+using SlippiSharp.Parser.Enums;
 using SlippiSharp.Parser.SlippiObjects;
 
 namespace SlippiSharp.Parser.Extensions;

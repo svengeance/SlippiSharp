@@ -1,4 +1,5 @@
-﻿using SlippiSharp.Parser.SlippiObjects;
+﻿using SlippiSharp.Parser.Core;
+using SlippiSharp.Parser.SlippiObjects;
 
 namespace SlippiSharp.Parser.Extensions;
 
