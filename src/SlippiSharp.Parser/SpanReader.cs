@@ -8,7 +8,6 @@ public ref struct SpanReader
 {
     readonly ReadOnlySpan<byte> baseSpan;
 
-
     public int Offset { get; set; }
 
     public bool EndOfSpan => Offset >= baseSpan.Length;
@@ -171,6 +170,16 @@ public ref struct SpanReader
     {
         var value = PeekUInt64();
         return Unsafe.As<ulong, double>(ref value);
+    }
+    
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public byte ReadByte()
+    {
+        var result = baseSpan[Offset];
+
+        Offset += sizeof(byte);
+
+        return result;
     }
 
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
